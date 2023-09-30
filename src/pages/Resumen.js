@@ -4,7 +4,7 @@ const Resumen = () => {
   return (
     <div>
         <div className="flex w-full p-3">
-        <div className="grid h-120 flex-grow card bg-base-300 rounded-box place-items-center">
+        <div className="grid h-120 flex-grow card bg-black rounded-box place-items-center">
         <div>
       <h1 className="text-2xl font-bold p-3">Resumen Personal:</h1>
       <p className="py-6 p-3">Soy una persona enérgica y proactiva que disfruta trabajando en entornos dinámicos. Tengo habilidades para trabajar en equipo y de forma independiente según las necesidades, lo cual me permite adaptarme fácilmente a diferentes situaciones.</p>
@@ -13,7 +13,7 @@ const Resumen = () => {
             </div>
                 </div>
                 <div className="divider divider-horizontal">|</div>
-                <div className="grid h-120 flex-grow card bg-base-300 rounded-box place-items-center">
+                <div className="grid h-120 flex-grow card bg-black rounded-box place-items-center">
                 <div>
             <h1 className="text-2xl font-bold p-3">Intereses Personales:</h1>
             <p className="py-6 p-3">Además de mi pasión por el diseño web, me gusta disfrutar de la música, el cine y la danza. Creo que estos intereses me ayudan a mantener un equilibrio en mi vida y me permiten ser más creativo y relajado en mi trabajo.

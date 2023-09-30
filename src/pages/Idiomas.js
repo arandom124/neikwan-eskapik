@@ -4,7 +4,7 @@ const Idiomas = () => {
   return (
     <>
     <div className=' p-9'>
-        <div className="collapse bg-base-200 place-items-center">    {/* Open the modal using ID.showModal() method */}
+        <div className="collapse bg-black place-items-center">    {/* Open the modal using ID.showModal() method */}
 <button className="btn" onClick={()=>window.my_modal_2.showModal()}>Idiomas</button>
 <dialog id="my_modal_2" className="modal">
   <form method="dialog" className="modal-box">

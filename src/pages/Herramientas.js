@@ -10,7 +10,7 @@ const Herramientas = () => {
     </h2>
     
     <div className="flex w-full p-3">
-  <div className="grid h-120 flex-grow card bg-base-300 rounded-box place-items-center">
+  <div className="grid h-120 flex-grow card bg-black rounded-box place-items-center">
   <h1 className="font-bold text-sky-400 text-2xl text-center pb-8">
                     Mi Entorno de Trabajo
                       </h1>                      
@@ -42,7 +42,7 @@ const Herramientas = () => {
                       </div>
   </div>
   <div className="divider divider-horizontal">|</div>
-  <div className="grid h-120 flex-grow card bg-base-300 rounded-box place-items-center">
+  <div className="grid h-120 flex-grow card bg-black rounded-box place-items-center">
   <h1 className="font-bold text-sky-400 text-2xl text-center pb-8">
                     Idiomas de uso general
                       </h1>

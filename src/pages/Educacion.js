@@ -15,7 +15,7 @@ const Educacion = () => {
         </span>
     </h2>
     <div className=' p-9'>
-    <div className="collapse collapse-plus bg-base-200 ">
+    <div className="collapse collapse-plus bg-black ">
   <input type="radio" name="my-accordion-3" checked="checked" /> 
   <div className="collapse-title text-xl font-medium">
   <h1 className="text-2xl font-bold">Técnico Profesional en Programación de Software</h1>
@@ -34,7 +34,7 @@ const Educacion = () => {
   </div>
 </div>
 <div className="divider"></div>
-<div className="collapse collapse-plus bg-base-200">
+<div className="collapse collapse-plus bg-black">
   <input type="radio" name="my-accordion-3" /> 
   <div className="collapse-title text-xl font-medium">
   <h1 className="text-2xl font-bold ">Tecnólogo en Análisis y Desarrollo de Sistemas de Información</h1>
@@ -49,7 +49,7 @@ const Educacion = () => {
   </div>
 </div>
 <div className="divider"></div>
-<div className="collapse collapse-plus bg-base-200">
+<div className="collapse collapse-plus bg-black">
   <input type="radio" name="my-accordion-3" /> 
   <div className="collapse-title text-xl font-medium">
   <h1 className="text-2xl font-bold ">Ingeniería de Sistemas</h1>

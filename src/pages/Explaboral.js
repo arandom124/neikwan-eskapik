@@ -16,7 +16,7 @@ const Explaboral = () => {
                   </span>
                 </h2>
                 <div className=' p-9'>
-                <div className="collapse bg-base-200">
+                <div className="collapse bg-black">
                 <input type="radio" name="my-accordion-1" checked="checked" /> 
                 <div className="collapse-title text-xl font-medium">
                 <h1 className="text-2xl font-bold text-right">Institucion Educativa Misak Mama Manuela - sede Puente Real  <img src={manuela} style={{ width: '100px',height: '50px'}}/></h1>
@@ -28,7 +28,7 @@ const Explaboral = () => {
                 </div>
                 </div>
                 <div className="divider"></div>
-                <div className="collapse bg-base-200">
+                <div className="collapse bg-black">
                 <input type="radio" name="my-accordion-1" /> 
                 <div className="collapse-title text-xl font-medium">
                 <h1 className="text-2xl font-bold text-right">Sitis Soluciones Informáticas Integrales en Salud S.A.S<img src={sitis} style={{ width: '190px',height: '50px'}}/></h1>
