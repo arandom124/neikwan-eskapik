@@ -15,7 +15,7 @@ const Footer = () => {
         </div>
       </div> 
       <div>
-        <p>Copyright © 2023 - Todos los derechos Reservados<br></br> Arandom Core</p>
+        <p>Copyright © 2023 - Todos los derechos Reservados<br></br> arandomCore</p>
       </div>
       <label className="swap swap-flip text-4xl">  
         {/* this hidden checkbox controls the state */}
