@@ -50,7 +50,7 @@ const Miproyectos = () => {
         Web Informativo y Radio Streamin 24/7
         </h1>
         <figure>
-        <a href="http://misakacike.22web.org/"className="flex space-x-5 items-center hover:text-slate-300">
+        <a href="https://misakacike.vercel.app/radioStream"className="flex space-x-5 items-center hover:text-slate-300">
           <img src={misakweb} alt="misakweb" /></a></figure>
         <div className="card-body">
           <h2 className="card-title font-bold text-orange-600 text-2xl text-left pb-1">EDGE, CHROME, FIREFOX, ETC 📡</h2>
