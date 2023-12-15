@@ -1,4 +1,5 @@
 import Quiensoy from "../pages/Quiensoy"
+import BajarCv from "../pages/BajarCv"
 import Resumen from "../pages/Resumen"
 import Idiomas from "../pages/Idiomas"
 import Miproyectos from "../pages/Miproyectos"
@@ -12,6 +13,7 @@ const Base = () => {
   return (
     <div className="bg-zinc-800 h-full">
       <Quiensoy/>
+      <BajarCv/>
       <Resumen/>
       <Idiomas/>
       <Miproyectos/>
