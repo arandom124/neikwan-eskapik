@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
 function BajarCv() {
@@ -26,46 +27,38 @@ function BajarCv() {
   };
 
   return (
-    <div className="hero min-h-screen bg-base-200">
-      <div className="hero-content text-center">
-        <div className="max-w-md">
-          <div className="hero bg-base-200">
-            <div className="hero-content flex-col lg:flex-row-reverse">
-              {showPasswordForm ? (
-                <form onSubmit={handlePasswordSubmit}>
-                  <label>
-                    Selecciona el formato:
-                    <select value={selectedFormat} onChange={(e) => setSelectedFormat(e.target.value)}>
-                      <option value="">Selecciona...</option>
-                      <option value="formato1">Formato 1</option>
-                      <option value="formato2">Formato 2</option>
-                    </select>
-                  </label>
-                  <br></br>
-                  <label>
-                    Contraseña:
-                    <input
-                      type="password"
-                      value={password}
-                      onChange={(e) => setPassword(e.target.value)}
-                    />
-                  </label>
-                  <br></br>
-                  <button type="submit" className="btn btn-outline btn-warning">
-                    Descargar CV
-                  </button>
-                </form>
-              ) : (
-                <div>
-                  <button onClick={() => setShowPasswordForm(true)} className="btn btn-outline btn-warning">
-                    Descargar CV
-                  </button>
-                </div>
-              )}
-            </div>
-          </div>
+    <div className="hero-content flex-col lg:flex-row-reverse">
+      {showPasswordForm ? (
+        <form onSubmit={handlePasswordSubmit}>
+          <label>
+            Selecciona el formato:
+            <select value={selectedFormat} onChange={(e) => setSelectedFormat(e.target.value)}>
+              <option value="">Selecciona...</option>
+              <option value="formato1">Formato 1</option>
+              <option value="formato2">Formato 2</option>
+            </select>
+          </label>
+          <br></br>
+          <label>
+            Contraseña:
+            <input
+              type="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+            />
+          </label>
+          <br></br>
+          <button type="submit" className="btn btn-outline btn-warning">
+            Descargar CV
+          </button>
+        </form>
+      ) : (
+        <div>
+          <button onClick={() => setShowPasswordForm(true)} className="btn btn-outline btn-warning">
+            Descargar CV
+          </button>
         </div>
-      </div>
+      )}
     </div>
   );
 }
